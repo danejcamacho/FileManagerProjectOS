@@ -1,9 +1,9 @@
 # Configuration
 
-CC		= gcc
-LD		= gcc
+CC		= clang
+LD		= clang
 AR		= ar
-CFLAGS		= -g -std=gnu99 -Wall -Iinclude -fPIC
+CFLAGS		= -g -std=c17 -Wall -Iinclude -fPIC
 LDFLAGS		= -Llib
 LIBS		= -lm
 ARFLAGS		= rcs
